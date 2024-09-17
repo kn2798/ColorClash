@@ -1,6 +1,7 @@
 # Visual Studio Stuff
 .vs/
 .vsconfig
+*.sln
 
 # Official Unity .gitignore File
 # This .gitignore file should be placed at the root of your Unity project directory
