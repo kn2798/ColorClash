@@ -323,7 +323,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &8105502382070014499
+--- !u!1001 &1995257296
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -333,7 +333,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8105502382051510621, guid: ab5d3e5950175a94a9eba258e44f6aa5, type: 3}
       propertyPath: m_Name
-      value: Circle
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 8105502382051510690, guid: ab5d3e5950175a94a9eba258e44f6aa5, type: 3}
       propertyPath: m_RootOrder
