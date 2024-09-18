@@ -56,17 +56,17 @@
     <Analyzer Include="D:\VISUALSTUDIO\IDE\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\BallScripts\SpecialBallScripts\SpecialBallScript.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\PlayerScript.cs" />
-    <Compile Include="Assets\Scripts\PlayerScripts\PlayerManageMovementScript.cs" />
-    <Compile Include="Assets\Scripts\BallScripts\SpecialEnemyScripts\SpecialBallScript.cs" />
-    <Compile Include="Assets\Scripts\BallScripts\SpecialEnemyScripts\SpecialBallColorScript.cs" />
     <Compile Include="Assets\Scripts\Tags.cs" />
+    <Compile Include="Assets\Scripts\UIScripts\ScoreScripts\ScoreScript.cs" />
+    <Compile Include="Assets\Scripts\BallSpawnerScripts\BallSpawnerScript.cs" />
+    <Compile Include="Assets\Scripts\UIScripts\ScoreScripts\BestScoreScript.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\PlayerManageCollisionScript.cs" />
     <Compile Include="Assets\Scripts\BallDestroyerScripts\BallDestroyerScript.cs" />
-    <Compile Include="Assets\Scripts\BallSpawnerScripts\BallSpawnerScript.cs" />
-    <Compile Include="Assets\Scripts\UIScripts\ScoreScripts\ScoreScript.cs" />
-    <Compile Include="Assets\Scripts\UIScripts\ScoreScripts\BestScoreScript.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\PlayerManageScoresScript.cs" />
+    <Compile Include="Assets\Scripts\BallScripts\SpecialBallScripts\SpecialBallColorScript.cs" />
+    <Compile Include="Assets\Scripts\PlayerScripts\PlayerManageMovementScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
