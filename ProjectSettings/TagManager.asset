@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Special
+  - Enemy
+  - Score1
+  - Score2
   layers:
   - Default
   - TransparentFX
@@ -46,4 +50,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 3082645337
+    locked: 0
+  - name: Ball
+    uniqueID: 3515277619
     locked: 0
