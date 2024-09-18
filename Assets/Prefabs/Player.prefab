@@ -10,7 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 8105502382051510690}
   - component: {fileID: 8105502382051510691}
-  - component: {fileID: 8105502382051510620}
+  - component: {fileID: 2953368643700819896}
+  - component: {fileID: 3776968605537951539}
   m_Layer: 8
   m_Name: Player
   m_TagString: Untagged
@@ -85,7 +86,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &8105502382051510620
+--- !u!58 &2953368643700819896
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8105502382051510621}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
+--- !u!114 &3776968605537951539
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -97,4 +114,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21d0039081961e348beafdec6294be39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HorizontalForce: 3
+  HorizontalForce: 7
+  Score: 0
+  BestScore: 0
+  Health: 3
