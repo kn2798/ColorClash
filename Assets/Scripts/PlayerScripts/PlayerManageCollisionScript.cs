@@ -8,7 +8,11 @@ public class PlayerManageCollisionScript : MonoBehaviour
     {
         if (BallCollider2D.CompareTag(Tags.SPECIAL_BALL_TAG))
         {
-            Player.Health = Mathf.Min(Player.Health + 1, Player.MaxHealth);
+            if(Player.Health < Player.MaxHealth)
+            {
+                Player.Health += 1;
+                PlayerManageUIScript.ManageHearts(Tags.HEART_REVIVE_ACTION, Player.Health);
+            }
         }
         if (BallCollider2D.CompareTag(Tags.SCORE_1_BALL_TAG))
         {
@@ -20,6 +24,7 @@ public class PlayerManageCollisionScript : MonoBehaviour
         }
         if (BallCollider2D.CompareTag(Tags.ENEMY_BALL_TAG))
         {
+            PlayerManageUIScript.ManageHearts(Tags.HEART_POP_ACTION, Player.Health);
             Player.Health -= 1;
         }
 
