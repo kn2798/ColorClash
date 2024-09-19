@@ -61,10 +61,11 @@
     <Compile Include="Assets\Scripts\Tags.cs" />
     <Compile Include="Assets\Scripts\UIScripts\ScoreScripts\ScoreScript.cs" />
     <Compile Include="Assets\Scripts\BallSpawnerScripts\BallSpawnerScript.cs" />
+    <Compile Include="Assets\Scripts\MainMenuScripts\ButtonScripts\PlayButtonScript.cs" />
     <Compile Include="Assets\Scripts\UIScripts\ScoreScripts\BestScoreScript.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\PlayerManageCollisionScript.cs" />
     <Compile Include="Assets\Scripts\BallDestroyerScripts\BallDestroyerScript.cs" />
-    <Compile Include="Assets\Scripts\PlayerScripts\PlayerManageScoresScript.cs" />
+    <Compile Include="Assets\Scripts\PlayerScripts\PlayerManageUIScript.cs" />
     <Compile Include="Assets\Scripts\BallScripts\SpecialBallScripts\SpecialBallColorScript.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\PlayerManageMovementScript.cs" />
   </ItemGroup>
