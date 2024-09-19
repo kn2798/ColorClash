@@ -15,7 +15,7 @@ public class PlayerScript : MonoBehaviour
     void Update()
     {
         PlayerManageMovementScript.ManageMovement(this, HorizontalForce);
-        PlayerManageScoresScript.ManageScores(Score);
+        PlayerManageUIScript.ManageScores(Score);
     }
 
     private void OnTriggerEnter2D(Collider2D BallCollider2D)
