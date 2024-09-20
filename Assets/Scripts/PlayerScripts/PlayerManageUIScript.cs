@@ -10,15 +10,15 @@ public class PlayerManageUIScript : MonoBehaviour
 {
     public static void ManageScores(int Score)
     {
-        GameObject.FindWithTag(Tags.CANVAS_TAG).transform.Find(Tags.SCORE_TEXT_NAME).gameObject.GetComponent<ScoreScript>().ManageScore(Score);
-        GameObject.FindWithTag(Tags.CANVAS_TAG).transform.Find(Tags.BEST_SCORE_TEXT_NAME).gameObject.GetComponent<BestScoreScript>().ManageBestScore(Score);
+        GameObject.FindWithTag(Tags.GAMEPLAY_CANVAS_TAG).transform.Find(Tags.SCORE_TEXT_NAME).gameObject.GetComponent<ScoreScript>().ManageScore(Score);
+        GameObject.FindWithTag(Tags.GAMEPLAY_CANVAS_TAG).transform.Find(Tags.BEST_SCORE_TEXT_NAME).gameObject.GetComponent<BestScoreScript>().ManageBestScore(Score);
     }
 
     public static void ManageHearts(string Action, int HeartIndex)
     {
-        Animator HeartAnimator = GameObject.Find(Tags.CANVAS_TAG).transform.Find(Tags.HEARTS_TAG).Find(Tags.HEART_TAG + HeartIndex).GetComponent<Animator>();
+        Animator HeartAnimator = GameObject.Find(Tags.GAMEPLAY_CANVAS_NAME).transform.Find(Tags.HEARTS_TAG).Find(Tags.HEART_TAG + HeartIndex).GetComponent<Animator>();
 
-        if(Action == Tags.HEART_REVIVE_ACTION)
+        if (Action == Tags.HEART_REVIVE_ACTION)
         {
             ReviveHeart(HeartAnimator, HeartIndex);
         }
