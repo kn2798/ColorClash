@@ -7,6 +7,7 @@ public class PlayButtonScript : MonoBehaviour
 {
     public void PlayGame()
     {
+        MainMenuPlayButtonManageAudioScript.ManageAudio();
         SceneManager.LoadScene(Tags.GAMEPLAY_SCENE_TAG);
     }
 }
