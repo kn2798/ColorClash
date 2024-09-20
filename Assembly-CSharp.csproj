@@ -76,6 +76,13 @@
     <Compile Include="Assets\Scripts\BallScripts\SpecialBallScripts\SpecialBallColorScript.cs" />
     <Compile Include="Assets\Scripts\UIScripts\GameplayScripts\PauseMenuScripts\PauseButtonScript.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\PlayerManageMovementScript.cs" />
+    <Compile Include="Assets\Scripts\UIScripts\MainMenuScripts\MainMenuManageScripts\MainMenuManagerScript.cs" />
+    <Compile Include="Assets\Scripts\PlayerScripts\PlayerManageAudioScript.cs" />
+    <Compile Include="Assets\Scripts\UIScripts\DeathScreenScripts\DeathScreenManageScripts\DeathScreenManageScript.cs" />
+    <Compile Include="Assets\Scripts\Singletons\AudioManagerSingleton\AudioManagerSingletonScript.cs" />
+    <Compile Include="Assets\Scripts\UIScripts\MainMenuScripts\ButtonScripts\MainMenuPlayButtonManageAudioScript.cs" />
+    <Compile Include="Assets\Scripts\UIScripts\GameplayScripts\PauseMenuScripts\GameplayButtonManageAudioScript.cs" />
+    <Compile Include="Assets\Scripts\UIScripts\DeathScreenScripts\ButtonScripts\DeathScreenButtonManageAudioScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
