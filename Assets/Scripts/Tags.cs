@@ -25,6 +25,8 @@ public class Tags : MonoBehaviour
     public static string GAMEPLAY_SCENE_TAG = "GameplayScene";
     public static string MAINMENU_SCENE_TAG = "MainMenuScene";
     public static string DEATH_SCENE_TAG = "DeathScreenScene";
+
+    public static string AUDIO_MANAGER_TAG = "AudioManager";
     
     public static string GAMEPLAY_CANVAS_NAME = "GameplayCanvas";
     public static string PAUSE_CANVAS_NAME = "PauseCanvas";
@@ -41,8 +43,19 @@ public class Tags : MonoBehaviour
     public static string SCORE_TEXT_NAME = "ScoreText";
     public static string BEST_SCORE_TEXT_NAME = "BestScoreText";
 
+    public static string DONT_DESTROY_ON_LOAD_NAME = "DontDestroyOnLoad";
+
+    public static string AUDIO_MANAGER_NAME = "AudioManager";
+
+    public static string DEATH_MUSIC_NAME = "DeathMusic";
+    public static string SCORE_SOUND_EFFECT_NAME = "ScoreSoundEffect";
+    public static string HIT_SOUND_EFFECT_NAME = "HitSoundEffect";
+    public static string HEAL_SOUND_EFFECT_NAME = "HealSoundEffect";
+    public static string BUTTON_PRESS_SOUND_EFFECT_NAME = "ButtonPressSoundEffect";
+
     public static string HEART_REVIVE_ACTION = "Revive";
     public static string HEART_POP_ACTION = "Pop";
+    public static string SCORE_ACTION = "Score";
 
     public static float HEART_REVIVE_ANIMATION_LENGTH = 0.5f;
     public static float HEART_POP_ANIMATION_LENGTH = 0.333f;
