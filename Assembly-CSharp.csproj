@@ -59,30 +59,30 @@
     <Compile Include="Assets\Scripts\BallScripts\SpecialBallScripts\SpecialBallScript.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\PlayerScript.cs" />
     <Compile Include="Assets\Scripts\Tags.cs" />
+    <Compile Include="Assets\Scripts\UIScripts\MainMenuScripts\ButtonScripts\MainMenuPlayButtonManageAudioScript.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\PlayerManageAnimationScript.cs" />
     <Compile Include="Assets\Scripts\UIScripts\DeathScreenScripts\ButtonScripts\RetryButtonScript.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\PlayerManageDeathScript.cs" />
+    <Compile Include="Assets\Scripts\UIScripts\DeathScreenScripts\ButtonScripts\DeathScreenButtonManageAudioScript.cs" />
     <Compile Include="Assets\Scripts\UIScripts\ScoreScripts\ScoreScript.cs" />
     <Compile Include="Assets\Scripts\BallSpawnerScripts\BallSpawnerScript.cs" />
     <Compile Include="Assets\Scripts\UIScripts\MainMenuScripts\ButtonScripts\PlayButtonScript.cs" />
     <Compile Include="Assets\Scripts\UIScripts\DeathScreenScripts\ScoreScripts\ScoreTextManageScript.cs" />
+    <Compile Include="Assets\Scripts\UIScripts\DeathScreenScripts\DeathScreenManageScripts\DeathScreenManageScript.cs" />
+    <Compile Include="Assets\Scripts\UIScripts\GameplayScripts\PauseMenuScripts\GameplayButtonManageAudioScript.cs" />
     <Compile Include="Assets\Scripts\UIScripts\DeathScreenScripts\ScoreScripts\BestScoreTextManageScript.cs" />
     <Compile Include="Assets\Scripts\UIScripts\ScoreScripts\BestScoreScript.cs" />
+    <Compile Include="Assets\Scripts\Singletons\AudioManagerSingleton\AudioManagerSingletonScript.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\PlayerManageCollisionScript.cs" />
+    <Compile Include="Assets\Scripts\UIScripts\MainMenuScripts\MainMenuManageScripts\MainMenuManagerScript.cs" />
     <Compile Include="Assets\Scripts\BallDestroyerScripts\BallDestroyerScript.cs" />
     <Compile Include="Assets\Scripts\UIScripts\DeathScreenScripts\ButtonScripts\HomeButtonScript.cs" />
     <Compile Include="Assets\Scripts\UIScripts\GameplayScripts\PauseMenuScripts\ResumeButtonScript.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\PlayerManageUIScript.cs" />
     <Compile Include="Assets\Scripts\BallScripts\SpecialBallScripts\SpecialBallColorScript.cs" />
     <Compile Include="Assets\Scripts\UIScripts\GameplayScripts\PauseMenuScripts\PauseButtonScript.cs" />
-    <Compile Include="Assets\Scripts\PlayerScripts\PlayerManageMovementScript.cs" />
-    <Compile Include="Assets\Scripts\UIScripts\MainMenuScripts\MainMenuManageScripts\MainMenuManagerScript.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\PlayerManageAudioScript.cs" />
-    <Compile Include="Assets\Scripts\UIScripts\DeathScreenScripts\DeathScreenManageScripts\DeathScreenManageScript.cs" />
-    <Compile Include="Assets\Scripts\Singletons\AudioManagerSingleton\AudioManagerSingletonScript.cs" />
-    <Compile Include="Assets\Scripts\UIScripts\MainMenuScripts\ButtonScripts\MainMenuPlayButtonManageAudioScript.cs" />
-    <Compile Include="Assets\Scripts\UIScripts\GameplayScripts\PauseMenuScripts\GameplayButtonManageAudioScript.cs" />
-    <Compile Include="Assets\Scripts\UIScripts\DeathScreenScripts\ButtonScripts\DeathScreenButtonManageAudioScript.cs" />
+    <Compile Include="Assets\Scripts\PlayerScripts\PlayerManageMovementScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
