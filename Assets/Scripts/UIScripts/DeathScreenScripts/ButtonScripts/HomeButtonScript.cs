@@ -7,6 +7,7 @@ public class HomeButtonScript : MonoBehaviour
 {
     public void ManageHome()
     {
+        DeathScreenButtonManageAudioScript.ManageAudio();
         SceneManager.LoadScene(Tags.MAINMENU_SCENE_TAG);
     }
 }
