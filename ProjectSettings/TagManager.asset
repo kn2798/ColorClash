@@ -8,6 +8,8 @@ TagManager:
   - Enemy
   - Score1
   - Score2
+  - Canvas
+  - BallDestroyer
   layers:
   - Default
   - TransparentFX
@@ -18,7 +20,7 @@ TagManager:
   - 
   - BackGround
   - Player
-  - 
+  - TextBackground
   - 
   - 
   - 
@@ -53,4 +55,7 @@ TagManager:
     locked: 0
   - name: Ball
     uniqueID: 3515277619
+    locked: 0
+  - name: TextBackground
+    uniqueID: 3757057403
     locked: 0
