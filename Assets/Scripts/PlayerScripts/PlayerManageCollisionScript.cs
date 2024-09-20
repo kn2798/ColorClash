@@ -13,19 +13,23 @@ public class PlayerManageCollisionScript : MonoBehaviour
                 Player.Health += 1;
                 PlayerManageUIScript.ManageHearts(Tags.HEART_REVIVE_ACTION, Player.Health);
             }
+            PlayerManageAudioScript.ManageAudio(Player, Tags.HEART_REVIVE_ACTION);
         }
         if (BallCollider2D.CompareTag(Tags.SCORE_1_BALL_TAG))
         {
             Player.Score += 1;
+            PlayerManageAudioScript.ManageAudio(Player, Tags.SCORE_ACTION);
         }
         if (BallCollider2D.CompareTag(Tags.SCORE_2_BALL_TAG))
         {
             Player.Score += 2;
+            PlayerManageAudioScript.ManageAudio(Player, Tags.SCORE_ACTION);
         }
         if (BallCollider2D.CompareTag(Tags.ENEMY_BALL_TAG))
         {
             PlayerManageUIScript.ManageHearts(Tags.HEART_POP_ACTION, Player.Health);
             Player.Health -= 1;
+            PlayerManageAudioScript.ManageAudio(Player, Tags.HEART_POP_ACTION);
             PlayerManageAnimationScript.ManageDeathAnimation(Player);
         }
 
