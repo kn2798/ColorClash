@@ -12,19 +12,27 @@ public class Tags : MonoBehaviour
     public static string ENEMY_BALL_TAG = "Enemy";
 
     public static string BALL_DESTROYER_TAG = "BallDestroyer";
-    public static string CANVAS_TAG = "Canvas";
+    public static string GAMEPLAY_CANVAS_TAG = "Canvas";
+
     public static string HEARTS_TAG = "Hearts";
     public static string HEART_TAG = "Heart";
 
     public static string HEART_REVIVE_ANIMATION_TAG = "HeartReviveAnimation";
     public static string HEART_POP_ANIMATION_TAG = "HeartPopAnimation";
     public static string HEART_IDLE_ANIMATION_TAG = "HeartIdleAnimation";
+    public static string PLAYER_DEATH_ANIMATION_TAG = "PlayerDeathAnimation";
 
     public static string GAMEPLAY_SCENE_TAG = "GameplayScene";
+    public static string MAINMENU_SCENE_TAG = "MainMenuScene";
+    public static string DEATH_SCENE_TAG = "DeathScreenScene";
+    
+    public static string GAMEPLAY_CANVAS_NAME = "GameplayCanvas";
+    public static string PAUSE_CANVAS_NAME = "PauseCanvas";
 
     public static string SCORE_UI_PREFIX = "Score: ";
     public static string BEST_SCORE_UI_PREFIX = "Best: ";
 
+    public static string SCORE_PLAYER_PREFS_KEY = "Score";
     public static string BEST_SCORE_PLAYER_PREFS_KEY = "BestScore";
 
     public static string LEFT_BALL_SPAWNER_NAME = "BallSpawnerLeftBoundry";
@@ -36,5 +44,6 @@ public class Tags : MonoBehaviour
     public static string HEART_REVIVE_ACTION = "Revive";
     public static string HEART_POP_ACTION = "Pop";
 
-    public static int HEART_REVIVE_ANIMATION_LENGTH = 500;
+    public static float HEART_REVIVE_ANIMATION_LENGTH = 0.5f;
+    public static float HEART_POP_ANIMATION_LENGTH = 0.333f;
 }
