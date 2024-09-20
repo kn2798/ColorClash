@@ -26,6 +26,7 @@ public class PlayerManageCollisionScript : MonoBehaviour
         {
             PlayerManageUIScript.ManageHearts(Tags.HEART_POP_ACTION, Player.Health);
             Player.Health -= 1;
+            PlayerManageAnimationScript.ManageDeathAnimation(Player);
         }
 
         Destroy(BallCollider2D.gameObject);
