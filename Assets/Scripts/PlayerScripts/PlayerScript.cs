@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerScript : MonoBehaviour
 {
+    public GameObject AudioManager;
+
     public float HorizontalForce = 7;
     public float TimeConstantMargin = 0.5f;
 
@@ -12,6 +14,11 @@ public class PlayerScript : MonoBehaviour
     public int MaxHealth = 3;
 
     public bool canMove = true;
+
+    private void Start()
+    {
+        DontDestroyOnLoad(AudioManager);
+    }
 
     void Update()
     {
