@@ -5,17 +5,33 @@ using UnityEngine;
 public class PlayerScript : MonoBehaviour
 {
     public float HorizontalForce = 7;
-    
-    public int Score = 0;
-    public int BestScore = 0;
+    public float TimeConstantMargin = 0.5f;
 
+    public int Score = 0;
     public int Health = 3;
     public int MaxHealth = 3;
 
+    public bool canMove = true;
+
     void Update()
     {
-        PlayerManageMovementScript.ManageMovement(this, HorizontalForce);
+        if (canMove)
+        {
+            PlayerManageMovementScript.ManageMovement(this, HorizontalForce);
+        }
+
         PlayerManageUIScript.ManageScores(Score);
+
+        if(Health == 0)
+        {
+            StartCoroutine(LoadDeathScreenSceneAfterSeconds(Tags.HEART_POP_ANIMATION_LENGTH + TimeConstantMargin));
+        }
+    }
+
+    public IEnumerator LoadDeathScreenSceneAfterSeconds(float Seconds)
+    {
+        yield return new WaitForSeconds(Seconds);
+        PlayerManageDeathScript.ManageDeath();
     }
 
     private void OnTriggerEnter2D(Collider2D BallCollider2D)
