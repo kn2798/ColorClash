@@ -7,6 +7,7 @@ public class RetryButtonScript : MonoBehaviour
 {
     public void ManageRetry()
     {
+        DeathScreenButtonManageAudioScript.ManageAudio();
         SceneManager.LoadScene(Tags.GAMEPLAY_SCENE_TAG);
     }
 }
