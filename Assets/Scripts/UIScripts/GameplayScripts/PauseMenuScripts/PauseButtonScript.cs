@@ -16,5 +16,6 @@ public class PauseButtonScript : MonoBehaviour
     {
         Time.timeScale = 0;
         PauseCanvas.SetActive(true);
+        GameplayButtonManageAudioScript.ManageAudio();
     }
 }
