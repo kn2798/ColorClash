@@ -15,5 +15,6 @@ public class ResumeButtonScript : MonoBehaviour
     {
         Time.timeScale = 1;
         PauseCanvas.SetActive(false);
+        GameplayButtonManageAudioScript.ManageAudio();
     }
 }
