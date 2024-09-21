@@ -17,6 +17,8 @@
 /[Uu]ser[Ss]ettings/
 /[Ss]etup/
 /[Ss]etups/
+/[Rr]elease/
+/[Rr]eleases/
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
